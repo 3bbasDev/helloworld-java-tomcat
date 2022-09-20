@@ -12,7 +12,7 @@ import com.testtomcat.demo.courses.Course;
 public class HelloworldApplication {
     @GetMapping("/courses")
     public List<Course> getAllCourses(){
-        var course=new Course(1,"test","testing");
+        var course=new Course(1,"test","testing 1");
         return Arrays.asList(course);
     }
 }
