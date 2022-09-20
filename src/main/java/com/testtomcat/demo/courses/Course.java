@@ -1,4 +1,4 @@
-package com.abbe.helloworld.courses.contrller;
+package com.testtomcat.demo.courses;
 
 public class Course {
     private long id;
