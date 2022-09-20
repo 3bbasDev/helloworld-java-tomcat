@@ -6,6 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.3</version>
+		<packaging>war</packaging>  
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.abbe</groupId>
@@ -30,6 +31,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>web-services</finalName>  
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
